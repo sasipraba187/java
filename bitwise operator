@@ -1,0 +1,39 @@
+public class problem7 {
+
+	public static void main(String[] args) {
+		int num1=5;
+		int num2=20;
+		System.out.println(num1 & num2);
+		System.out.println(num1 | num2);
+		System.out.println(num1 ^num2);
+	
+		
+		int num3=5;
+		int num4=10;
+		System.out.println(num3 & num4);
+		System.out.println(num3 | num4);
+		System.out.println(num3 ^num4);
+	
+	int num5=6;
+	int num6=8;
+	System.out.println(num5 & num6);
+	System.out.println(num5| num6);
+	System.out.println(num5 ^num6);
+
+int num7=7;
+int num8=19;
+System.out.println(num7 & num8);
+System.out.println(num7 | num8);
+System.out.println(num7 ^num8);
+
+int num9=8;
+int num10=10;
+System.out.println(num9 & num10);
+System.out.println(num9 | num10);
+System.out.println(num9^num10);
+}
+
+
+	}
+
+
