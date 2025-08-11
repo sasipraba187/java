@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class problem14 {
+
+	
+	
+
+		public class FibonacciWhile {
+		    public static void main(String[] args) {
+		    Scanner sc=new Scanner(System.in);
+		    	int n=10;
+		        int first=0,second=1;
+		        int count=1;
+		        System.out.println("fibonacci series:"+n);
+		    
+
+     while (count <= n) {
+            System.out.print(first + " ");
+           int next = first + second;
+            first = second;
+            second = next;
+           count ++;
+        }
+    }
+		}
+		
+}
+		
+		       
+		    
+		
+		        
+		    
+		
+
+
+	
