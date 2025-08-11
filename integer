@@ -1,0 +1,15 @@
+package day2;
+import java.util.Scanner;
+public class problem6 {
+
+	public static void main(String[] args) {
+		
+		int num=27;
+		int num2=32;
+		System.out.println(num==5 && num2==10);
+		System.out.println(num==5 || num==15);
+		System.out.println(!(num>num2));
+
+	}
+
+}
