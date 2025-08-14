@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class WonderlandPath {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        sc.close();
+
+        // Calculate sum of digits
+        int sum = (num / 10) + (num % 10);
+        System.out.println(sum);
+    }
+}
