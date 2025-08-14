@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class SumEvenTokyo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        long N = scanner.nextLong();
+        scanner.close();
+
+        long k = N / 2;  // number of even terms
+        long sum = k * (k + 1);
+        System.out.println(sum);
+    }
+}
