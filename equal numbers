@@ -1,0 +1,21 @@
+
+public class problem1 {
+
+	public static void main(String[] args) {
+		int num=15;
+		if(num==15) {
+			System.out.println("the num is equal");
+		}
+		if(num<20) {
+			System.out.println("the num is less than");
+		}
+		if(num>10) {
+			System.out.println("the num is greater than");
+	
+		}
+		else {
+			System.out.println("nothing");
+		}
+	}
+
+}
