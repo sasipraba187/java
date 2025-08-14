@@ -1,0 +1,33 @@
+package day9;
+
+public class problem1 {
+abstract class Bike{
+
+	abstract void run();
+}
+	
+		class Honda extends Bike{
+		
+			void play();
+			{
+				System.out.println("vehicle");
+			}
+		}
+
+	
+	
+
+	public static void main(String[] args) {
+	
+		Bike obj=new Honda();
+		obj.run();
+	Honda Obj=new Honda();
+	}
+	
+	}
+	
+	
+
+	
+
+
