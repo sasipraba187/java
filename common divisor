@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class StudyGroupDivider {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int totalStudents = sc.nextInt();    // Total number of students
+        int numberOfGroups = sc.nextInt();   // Desired number of study groups
+
+        int studentsPerGroup = totalStudents / numberOfGroups;
+        int remainingStudents = totalStudents % numberOfGroups;
+
+        System.out.println("The number of students in each team is " + studentsPerGroup +
+                           " and left out is " + remainingStudents);
+
+        sc.close();
+    }
+}
