@@ -1,0 +1,41 @@
+public static void main(String[] args) {
+		public class solution; {
+
+		  
+		public class assessment2 {
+		   
+		        System.out.print
+		        int x = sc.nextInt();
+		        System.out.print
+		        int y = sc.nextInt();
+		        System.out.print
+		        double s = sc.nextDouble();
+		        System.out.print
+		        double r = sc.nextDouble();
+		        System.out.print
+		        double l = sc.nextDouble();
+		        sc.close();
+
+		        if (s > r && 2 * s < r) {
+		            System.out.println;
+		            return;
+		    
+		        int totalLegs = x + 2 * y;
+		        int pairs = totalLegs / 2;
+		        int rem = totalLegs % 2;
+
+		        double mixedCost = pairs * r + rem * s;
+
+		        if (l <= mixedCost) {
+		            System.out.println
+		        } else {
+		            System.out.println
+		        }
+		    }
+		}
+
+		
+
+	}
+
+}
