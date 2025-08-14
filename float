@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class TollgatePassChooser {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();        
+        int y = sc.nextInt();        
+        double s = sc.nextDouble();  
+        double r = sc.nextDouble(); 
+        double l = sc.nextDouble();
+
+        // Check invalid input condition
+        if (s > r && 2 * s < r) {
+            System.out.println("Invalid Input");
+        } else {
+            double totalCost = (x * s) + (y * r);
+            if (totalCost < l) {
+                System.out.println("Solo Trail + Roundabout Ride");
+            } else {
+                System.out.println("Monthly Pass");
+            }
+        }
+
+        sc.close();
+    }
+}
