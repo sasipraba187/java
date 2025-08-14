@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class AlmostLuckyNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        
+        int rollNumber = scanner.nextInt();
+        scanner.close();
+
+      
+        String rollNumberStr = String.valueOf(rollNumber);
+
+        
+        boolean isAlmostLucky = true;
+        for (char digit : rollNumberStr.toCharArray()) {
+            if (digit != '4' && digit != '7') {
+                isAlmostLucky = false;
+                break;
+            }
+        }
+
+        
+        if (isAlmostLucky) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
