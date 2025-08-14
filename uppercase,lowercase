@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class SeatbeltCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String belt1 = sc.nextLine().trim().toLowerCase();
+        String belt2 = sc.nextLine().trim().toLowerCase();
+        String belt3 = sc.nextLine().trim().toLowerCase();
+
+        // Define valid responses
+        if (!isValid(belt1) || !isValid(belt2) || !isValid(belt3)) {
+            System.out.println("Invalid Input");
+        } else if (belt1.equals("engaged") && belt2.equals("engaged") && belt3.equals("engaged")) {
+            System.out.println("Initiating Warp Drive!");
+        } else {
+            System.out.println("Hold On! Some Belts are Adrift.");
+        }
+
+        sc.close();
+    }
+
+    private static boolean isValid(String status) {
+        return status.equals("engaged") || status.equals("disengaged");
+    }
+}
