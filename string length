@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class solution {
+ public static void main(String[]args) {
+    Scanner sc=new Scanner(System.in);
+    String var=sc.nextLine();
+    System.out.println("The magic within the string is"+" "+var);
+                       }
+                       }
+                       
+        
